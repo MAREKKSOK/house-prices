@@ -1,26 +1,24 @@
 # House Prices Prediction
 
-This repository contains my solution for the **House Prices: Advanced Regression Techniques** competition on [Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques).
-
-The goal of the competition is to predict the final prices of houses based on 79 explanatory variables describing almost every aspect of residential homes in Ames, Iowa.
-
----
-
-## Project Structure
-- `house_prediction.ipynb` – Jupyter Notebook with data preprocessing, feature engineering, model training and prediction steps.
-- `submission.csv` – Output file ready for Kaggle submission (generated from the notebook).
+This is a simple project where I try to predict house prices using Python and machine learning.  
+The data comes from the Kaggle competition: [House Prices – Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques).
 
 ---
 
-## Methods Used
-- Data preprocessing with **Pandas & NumPy**
-- Handling missing values and categorical variables
-- Model training with **XGBoost Regressor**
-- Evaluation using **Root Mean Squared Logarithmic Error (RMSLE)**
+## What is inside
+- `house_prediction.ipynb` – my Jupyter Notebook with all the code
+- `submission.csv` – the file with predictions that can be uploaded to Kaggle
 
 ---
 
-## How to Run
-1. Clone this repository:
+## What I used
+- **Pandas / NumPy** for working with the data
+- **Scikit-Learn** for splitting the data and evaluation
+- **XGBoost** to build the prediction model
+
+---
+
+## How to run
+1. Download this repository:
    ```bash
    git clone https://github.com/MAREKKSOK/house-prices.git
